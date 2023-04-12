@@ -15,7 +15,7 @@ public class CustomersController {
     @Autowired
     private CustomersService service;
 
-    @PostMapping("/addCustomerAuto")
+    @PostMapping("/addCustomersAuto")
     public int addCustomerAuto(@RequestBody Customers customers) {
         return service.saveCustomer(customers);
     }
@@ -35,7 +35,7 @@ public class CustomersController {
     }
 
     // mendapatkan data
-    @GetMapping("/all")
+    @GetMapping("/getAll")
     public Iterator<Customers> getAll() {
         return service.getAll();
     }
