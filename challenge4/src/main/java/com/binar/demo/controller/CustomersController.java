@@ -15,6 +15,11 @@ public class CustomersController {
     @Autowired
     private CustomersService service;
 
+    @GetMapping("/getAllActive")
+    public List<Customers> getActive() {
+        return service.getCustomersByActiveDesc();
+    }
+
     @PostMapping("/addCustomersAuto")
     public int addCustomerAuto(@RequestBody Customers customers) {
         return service.saveCustomer(customers);

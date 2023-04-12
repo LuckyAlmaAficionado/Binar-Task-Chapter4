@@ -25,6 +25,7 @@ public class CustomersService {
 
     EntityManager entityManager;
 
+
     public CustomersService(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
@@ -33,6 +34,10 @@ public class CustomersService {
     public int saveCustomer(Customers customers) {
         entityManager.persist(customers);
         return customers.getCustomerId();
+    }
+
+    public List<Customers> getCustomersByActiveDesc() {
+        return repostiory.findByCustomerActiveDesc();
     }
 
     public Iterator<Customers> getAll() {
