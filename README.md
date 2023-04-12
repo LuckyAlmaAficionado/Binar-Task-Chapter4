@@ -15,19 +15,19 @@ Api ini bertujuan untuk menyimpan data customers dan berguna untuk dapat mengena
 
 <<[ desc features ]>>
 
-[/addCustomersAuto] >> berguna untuk menambahkan customers dengan id berupa primary key dan juga auto increment.
+[ /addCustomersAuto ] >> berguna untuk menambahkan customers dengan id berupa primary key dan juga auto increment.
 
-[/addCustomer] >> berguna untuk menambahkan data customer perseorangan.
+[ /addCustomer ] >> berguna untuk menambahkan data customer perseorangan.
 
-[/addCustomers] >> berguna untuk menambahkan beberapa data customer.
+[ /addCustomers ] >> berguna untuk menambahkan beberapa data customer.
 
-[/getAll] >> berguna untuk mendapatkan semua data customer
+[ /getAll ] >> berguna untuk mendapatkan semua data customer
 
-[/findByFirstName] >> berguna untuk mendapatkan data customer sesuai dengan nama depan
+[ /findByFirstName ] >> berguna untuk mendapatkan data customer sesuai dengan nama depan
 
-[/delete] >> berguna untuk menghapus data customer perseorangan
+[ /delete ] >> berguna untuk menghapus data customer perseorangan
 
-[/update] >> berguna untuk mengupdate data customer perseorangan
+[ /update ] >> berguna untuk mengupdate data customer perseorangan
 
 ## Roadmap
 
